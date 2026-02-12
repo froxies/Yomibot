@@ -18,6 +18,24 @@
 
 ### 빠른 시작
 
+### 다운로드(릴리스/ZIP)
+
+GitHub에서 배포(릴리스) 기준으로 내려받는 방법입니다.
+
+1) **Releases에서 다운로드(권장)**
+- https://github.com/froxies/Yomibot/releases/latest 로 이동
+- Assets에서 `Source code (zip)` 또는 배포 파일을 다운로드 후 압축 해제
+
+2) **ZIP으로 다운로드(브랜치 기준)**
+- https://github.com/froxies/Yomibot/archive/refs/heads/main.zip 다운로드 후 압축 해제
+
+3) **Git으로 클론**
+
+```bash
+git clone https://github.com/froxies/Yomibot.git
+cd Yomibot
+```
+
 1) **Python 준비**
 - Python 3.10+ 권장(현재 프로젝트는 3.12 환경에서 실행 흔적이 있습니다)
 
@@ -95,9 +113,7 @@ python main.py
 
 ### 스타 히스토리
 
-아래 `{OWNER}/{REPO}`를 실제 GitHub 저장소로 바꾸면 자동으로 그래프가 표시됩니다.
-
-[![Star History Chart](https://api.star-history.com/svg?repos={OWNER}/{REPO}&type=Date)](https://star-history.com/#%7BOWNER%7D/%7BREPO%7D&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=froxies/Yomibot&type=Date)](https://star-history.com/#froxies/Yomibot&Date)
 
 ---
 
@@ -107,6 +123,24 @@ python main.py
 **Yomi Bot** is a multi-purpose Discord bot built with `discord.py`. It uses a Cog-based modular architecture and provides moderation/server settings, economy/minigames, invite/log tracking, verification (captcha), and an optional Gemini-powered chatbot.
 
 ### Quick Start
+
+### Download (Release/ZIP)
+
+Ways to download the project from GitHub.
+
+1) **Download from Releases (Recommended)**
+- Go to https://github.com/froxies/Yomibot/releases/latest
+- Download `Source code (zip)` (or a packaged asset) and extract it
+
+2) **Download as ZIP (branch)**
+- Download and extract: https://github.com/froxies/Yomibot/archive/refs/heads/main.zip
+
+3) **Clone with Git**
+
+```bash
+git clone https://github.com/froxies/Yomibot.git
+cd Yomibot
+```
 
 ```bash
 pip install -r requirements.txt
@@ -128,7 +162,4 @@ MIT License. See [LICENSE](LICENSE).
 > - Third-party dependencies and assets (data/images/fonts) may have their own licenses. Review them before redistribution.
 
 ### Star History
-
-Replace `{OWNER}/{REPO}` with your actual GitHub repository to enable the chart.
-
-[![Star History Chart](https://api.star-history.com/svg?repos={OWNER}/{REPO}&type=Date)](https://star-history.com/#%7BOWNER%7D/%7BREPO%7D&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=froxies/Yomibot&type=Date)](https://star-history.com/#froxies/Yomibot&Date)
