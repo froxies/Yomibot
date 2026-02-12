@@ -24,10 +24,10 @@ GitHub에서 배포(릴리스) 기준으로 내려받는 방법입니다.
 
 1) **Releases에서 다운로드(권장)**
 - https://github.com/froxies/Yomibot/releases/latest 로 이동
-- Assets에서 `Source code (zip)` 또는 배포 파일을 다운로드 후 압축 해제
+- Assets에서 `latest (zip)` 파일을 다운로드 후 압축 해제
 
 2) **ZIP으로 다운로드(브랜치 기준)**
-- https://github.com/froxies/Yomibot/archive/refs/heads/main.zip 다운로드 후 압축 해제
+- [https://github.com/froxies/Yomibot/archive/refs/heads/main.zip](https://github.com/froxies/Yomibot/releases/download/Latest/latest.zip) 다운로드 후 압축 해제
 
 3) **Git으로 클론**
 
@@ -108,7 +108,7 @@ python main.py
 
 > [!WARNING]
 > - 이 라이선스는 본 레포지토리의 소스코드에 적용됩니다. Discord, Google Gemini, OpenWeather 등 **외부 서비스의 약관/정책**은 별도로 준수해야 합니다.
-> - `TOKEN`, `GEMINI_API_KEY`, `WEATHER_API_KEY` 같은 비밀 값은 **절대 커밋하지 마세요**. (`.env`는 `.gitignore`로 제외되어 있습니다.)
+> - `TOKEN`, `GEMINI_API_KEY`, `WEATHER_API_KEY` 같은 값은 **절대 커밋하지 마세요**. (`.env`는 `.gitignore`로 제외되어 있습니다.)
 > - 의존성(패키지) 및 데이터/이미지/폰트 등 제3자 리소스의 라이선스는 각각 다를 수 있으니 배포 전 확인하세요.
 
 ### 스타 히스토리
@@ -133,7 +133,7 @@ Ways to download the project from GitHub.
 - Download `Source code (zip)` (or a packaged asset) and extract it
 
 2) **Download as ZIP (branch)**
-- Download and extract: https://github.com/froxies/Yomibot/archive/refs/heads/main.zip
+- Download and extract: [https://github.com/froxies/Yomibot/archive/refs/heads/main.zip](https://github.com/froxies/Yomibot/releases/download/Latest/latest.zip)
 
 3) **Clone with Git**
 
